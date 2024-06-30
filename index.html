@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafío - To do List</title>
+</head>
+<body>
+    <header>
+        <h1>Desafío - To do List</h1>
+    </header>
+    <section class="nuevaTarea">
+        <input type="text" placeholder="Ingresa una nueva tarea">
+        <button id="agregar">Agregar</button>
+    </section>
+    <hr>
+    <section class="resumenTareas">
+        <div>
+            <p id="cantidadTotalTareas"></p>
+            <p id="cantidadTareasRealizadas"></p>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                    <th>¿Realizada?</th>
+                    <th>Borrar</th>
+                </thead>
+                <tbody id="listadoTareas">
+                </tbody>
+                
+            </table>
+        </div>    
+    </section>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
